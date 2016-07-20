@@ -9,7 +9,8 @@ p3.name = 'Lisa'
 L1 = [p1, p2, p3]
 L2 = sorted(L1,key=lambda x:(x.name))
 print L2[0].name
-print L2[1].name'''
+print L2[1].name
+print L2[2].name'''
 class Person(object):
     def __init__(self, name, score):
         self.name=name
